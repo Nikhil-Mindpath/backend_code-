@@ -2,9 +2,10 @@
   "name": "backend_code",
   "version": "1.0.0",
   "description": "Backend Code  ",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascrip",
@@ -12,5 +13,9 @@
     "chai"
   ],
   "author": "Nikhil",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
 }
