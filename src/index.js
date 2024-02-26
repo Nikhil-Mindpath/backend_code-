@@ -1,17 +1,17 @@
 // require('dotenv').config({path : './env'})
 // require('dotenv').config({path : './env'})
 import "dotenv/config.js"
-console.log(process.env); // insted we use dotenv.config to maintin consitency 
+// console.log(process.env); // insted we use dotenv.config to maintain consitency 
 
 import dotenv from 'dotenv'
 import express from "express";
 import connectDB from "./db/index.js";
-
+import { app } from "./app.js";
 // dotenv.config({
 //     path : './env'
 // })
 
-const app  = express()
+// const app  = express()
 
 
 // function connectDB(){}
